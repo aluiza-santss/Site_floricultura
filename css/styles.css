@@ -63,11 +63,6 @@ header div h1, .apresentacao__titulo{
     color: var(--color8);
 }
 
-/*.apresentacao__titulo{
-    margin: auto;
-    color: var(--color1);
-    font-size: 3rem;
-}*/
 
 header nav{
     display: flex;
