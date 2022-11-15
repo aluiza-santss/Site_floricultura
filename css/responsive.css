@@ -1,0 +1,83 @@
+@media screen and (max-width: 800px){
+    .bloco_esquerda a, .bloco_direita a{
+        font-size: 1.8rem;
+    }
+
+    .apresentacao__container img {
+        width: 16rem;
+    }
+
+    .imagens__container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .imagens__container img {
+        min-width: 80%;
+    }
+}
+
+/* //////////////////////////////// */
+
+.card__container {
+    flex-basis: 24%;
+}
+
+@media screen and (max-width: 620px) {
+    .bloco__container {
+        padding: 1rem 0;
+    }
+
+    .apresentacao__container img {
+        display: none;
+    }
+
+    .imagens__container img {
+        min-width: 100%;
+    }
+
+    .quem__somos {
+        flex-direction: column;
+    }
+
+    article {
+        width: 30rem;
+    }
+
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* //////////////////////////////// */
+
+    .produtos {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .card__container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 490px){
+    /* //////////////////////////////// */
+    .card__container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header nav a {
+        font-size: 1.4rem;
+    }
+
+    article {
+        width: 25rem;
+    }
+    
+    footer {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,25 @@
+@keyframes missao {
+    0%{
+        transform: translatey(0px);
+    }
+    
+    25%{   
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes flor-move{
+    from {
+        transform: translate(-40px);
+    }
+    
+    to {
+        transform: translate(40px) ;
+    }
+}
